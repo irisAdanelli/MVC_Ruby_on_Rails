@@ -1,9 +1,9 @@
 <%= form_with(model: ordene, local: true) do |form| %>
   <% if ordene.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(ordene.errors.count, "error") %> prohibited this ordene from being saved:</h2>
+      <h2 class="display-4"><%= pluralize(ordene.errors.count, "error") %> prohibited this ordene from being saved:</h2>
 
-      <ul>
+      <ul class="list-unstyled">
       <% ordene.errors.full_messages.each do |message| %>
         <li><%= message %></li>
       <% end %>
