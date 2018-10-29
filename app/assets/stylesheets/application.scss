@@ -13,3 +13,12 @@
  */
 
  @import "bootstrap";
+
+ body{
+     background-image: url(asset-path('ruby-on-rails.jpg'));
+     padding: 150px;
+ }
+
+ h1,h2,li,a{
+     color: antiquewhite;
+ }
